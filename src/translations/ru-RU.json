@@ -1,0 +1,423 @@
+{
+  "common": {
+    "or": "or",
+    "i_understand": "Я понимаю.",
+    "okay": "Окей",
+    "cancel": "Отменить",
+    "welcome": "Добро пожаловать",
+    "continue": "Продолжить",
+    "back": "Back",
+    "verify": "Проверить",
+    "spinner": "Загружается ...",
+    "name": "Название",
+    "full_name": "Полное имя",
+    "display_name": "Имя",
+    "display_name_placeholder": "Имя используемое в приветствиях, по умолчанию Имя",
+    "address": "Адрес",
+    "address1": "Адрес (1-я строка)",
+    "address2": "Адрес 2 (необязательно)",
+    "city": "Город",
+    "code": "Почтовый индекс",
+    "State": "Штат / Область",
+    "country": "Страна",
+    "for": " для ",
+    "information_modal": {
+      "instructions": "Инструкции",
+      "footer": "Если у вас есть вопросы или вам нужна помощь, пишите нам на support@reach4help.org.",
+      "a11y_logo": "Получить логотип справки",
+      "OpenRequestsContainer": {
+        "title": "Все еще ищет помощь ...",
+        "0": "Ваши запросы отсутствуют, но никто еще не вызвался помочь",
+        "1": "Вы также будете получать уведомления об изменении статуса ваших запросов.",
+        "2": " Если у вас есть вопросы или трудности с этим, пишите на support@reach4help.org!"
+      },
+      "AcceptedRequestsContainer": {
+        "title": "Кто-то предложил помочь!",
+        "0": "Кто-то предложил помочь.",
+        "1": "Свяжитесь с ними по телефону для уточнения деталей."
+      },
+      "OngoingRequestsContainer": {
+        "title": "Совпадение с волонтером!",
+        "0": "Вы подошли к тому, кто заботится о вашем запросе."
+      },
+      "FinishedRequestsContainer": {
+        "title": "Все готово!",
+        "0": "Вы и волонтер согласны с тем, что все сделано."
+      },
+      "ArchivedRequestsContainer": {
+        "title": "Вы решили не делать это",
+        "0": "Вы изменили свой разум и удалили свой запрос."
+      },
+      "TimelineViewContainer": {
+        "title": "Просмотреть каждый шаг вашего запроса",
+        "0": "Запрос создан.",
+        "1": "Кто-то предлагает помощь.",
+        "2": "При принятии или отклонении предложения",
+        "3": "Проект завершен.",
+        "4": "Проект завершен.",
+        "5": "Проект завершен.",
+        "6": "Добровольцы и люди, нуждающиеся в помощи."
+      },
+      "MenuDrawer": {
+        "title": "Использование кнопок внизу",
+        "0": "Нажмите левое меню, чтобы отслеживать каждый шаг вашего запроса",
+        "1": "Открыть: Запросы, которые нуждаются в волонтере",
+        "2": "Кто-то предложил помочь.",
+        "3": "Текущее: Ваш запрос сейчас работает с волонтером.",
+        "4": "Завершено: Волонтёр выполнил запрос.",
+        "5": "В архиве: Запросы, которые вы удалили.",
+        "6": "Нажмите левый колонок, чтобы увидеть ваши уведомления"
+      },
+      "FindRequestsContainer": {
+        "title": "Добро пожаловать в Reach4Help!",
+        "0": "Спасибо за присоединение к Reach4Help!",
+        "1": "Как волонтер, вы сможете помочь людям, находящимся в вашей области, отвечая на их запросы о помощи.",
+        "2": "Используйте эту карту для поиска нуждающихся в ней людей.",
+        "3": "Нажмите на оранжевый маркер, чтобы просмотреть запрос этого человека и решить, принять ли его",
+        "4": "Как только человек примет ваше предложение о помощи, вы будете обмениваться контактной информацией.",
+        "5": "Проверьте панель уведомлений, чтобы увидеть обновления о ваших предложениях для помощи.",
+        "6": "Благодарим Вас за присоединение к нам в создании этой единой платформы помощи!"
+      },
+      "NewRequestsContainer": {
+        "title": "Добро пожаловать в Reach4Help!",
+        "0": "Благодарим вас за присоединение к Reach4Help! Как человек в этом нуждается, вы сможете связаться с вами для помощи в вашем районе, создав запросы. В настоящее время мы не можем гарантировать, что есть добровольцы, которые могут помочь в вашей области. в этом случае мы предлагаем поделиться им с потенциальными добровольцами и местными добровольческими организациями. Благодарим Вас за присоединение к нам в создании этой единой платформы помощи!",
+        "1": "Благодарим вас за отправку запроса! Вы будете уведомлены, когда предложения добровольца принять его. Чтобы проверить его статус, нажмите или проверьте ",
+        "2": "Проверьте панель уведомлений, чтобы увидеть обновления о ваших предложениях для помощи.",
+        "3": "Как только вы примете предложение, ваша информация будет передана волонтеру.",
+        "4": "Свяжитесь с волонтером (или дождитесь того, чтобы он связался с вами) для координации."
+      }
+    },
+    "login": {
+      "title": "Reach4Help",
+      "sub_title": "Регистрация",
+      "info": "Привет! Большое спасибо за интерес к помощи вашему сообществу! Для обеспечения безопасности наших пользователей, в настоящее время нам требуется войти через Google или Facebook, чтобы подтвердить вашу личность и связаться с вами при возникновении расхождений.\n\nПосле этого шага вас попросят предоставить ваш номер телефона и проверить его с помощью кода, который вы получите с помощью текста. Так люди с предложением помощи свяжутся с вами! Контактная информация передается другому лицу только после того, как вы одобрили лицо, предлагающее им помочь. Когда вы подаете запрос на помощь, ваше точное местоположение не разделено (только первые три цифры почтового индекса).\nБлагодарим вас за сотрудничество в создании нашего мира как более безопасного и полезного места! Если у вас есть какие-либо вопросы, пожалуйста, свяжитесь с нами по адресу support@reach4help. rg.",
+      "facebookButtonLabel": "Продолжить с Facebook",
+      "googleButtonLabel": "Войти через Google",
+      "sign_in": {
+        "title": "Login with email",
+        "password_label": "Password",
+        "password_error_message": "Please input your password"
+      },
+      "steps": {
+        "continue": "Continue",
+        "footer": {
+          "contact": "If you have any questions or need assistance feel free to email us at "
+        },
+        "0_welcome": {
+          "title": "Welcome",
+          "welcome": "Welcome to Reach4Help!",
+          "thanks": "Thank you so much for your interest in helping your community"
+        },
+        "1_select_language": {
+          "title": "Language",
+          "select_language_label": "What is your primary language?"
+        },
+        "2_explanation": {
+          "title": "Explanation",
+          "purpose": "Through our platform, you’ll be able to connect with people to recieve and provide help to people in your area!",
+          "connect": "You can connect with volunteers and people in need and people in need by creating requests for help and offering support for those requests."
+        },
+        "2_authentication": {
+          "email_signup": "Sign up with email",
+          "email_signin": "Continue with email",
+          "title": "Identity",
+          "please": "Please sign up with one of the providers below",
+          "popup_explanation": {
+            "main_question": "Why do you need an external account?",
+            "main_answer": "To ensure the safety of our users, we currently require login through Google or Facebook. This is to provide another layer of verification for our users in case we need to contact you.",
+            "second_question": "Can I use other means to verify my identity?",
+            "second_answer": "If you’re uncomfortable using Google/Facebook, you’re welcome to suggest an alternative to"
+          }
+        },
+        "3_email_signin": {
+          "title": "Login with email",
+          "signin": "Login",
+          "email_label": "Email",
+          "email_error_message": "Please input your email",
+          "password_label": "Password",
+          "password_error_message": "Please input the password you will use for Reach4Help",
+          "password_confirm_label": "Confirm password",
+          "password_confirm_empty_message": "Please confirm your password",
+          "password_confirm_error_message": "Your passwords must match"
+        },
+        "4_email_signup": {
+          "title": "Sign up with email",
+          "create_account": "Create Account",
+          "email_label": "Email",
+          "email_error_message": "Please input your email",
+          "password_label": "Password",
+          "password_error_message": "Please input the password you will use for Reach4Help",
+          "password_confirm_label": "Confirm password",
+          "password_confirm_empty_message": "Please confirm your password",
+          "password_confirm_error_message": "Your passwords must match"
+        }
+      }
+    },
+    "menuDrawer": {
+      "changeLanguage": "Change Language",
+      "contactUs": "Напишите нам",
+      "logout": "Выйти из учетной записи",
+      "switchToCAV": "Переключиться на поддержку предложения",
+      "switchToPIN": "Переключиться на помощь по поиску",
+      "settings": "Settings"
+    },
+    "settings": {
+      "heading": "Settings",
+      "changeName": "Change my name",
+      "deleteAccount": "Delete my account",
+      "changeNameForm": {
+        "full_name_error_message": "Please enter your name",
+        "display_name_error_message": "Please enter your display name",
+        "cancel": "Cancel",
+        "submit": "Save"
+      },
+      "deleteAccountModal": {
+        "title": "Are you sure you want to delete your account",
+        "body": "Closing your account means you will no longer be able to provide help or ask for help",
+        "deleteAccount": "Delete my account"
+      }
+    },
+    "phoneNumber": {
+      "title": "Before you continue...",
+      "select_instructions": "Выберите из выпадающего списка ниже",
+      "input_instructions": "Введите свой 4-значный PIN-код",
+      "sub_title": "Введите ваш номер телефона для входа",
+      "info": "Эта информация является основополагающей для вашей учетной записи. Данные и ставки могут применяться.",
+      "error_message": "Пожалуйста, введите номер телефона!",
+      "phone_valid": "Валидный номер телефона начинается с + и кода страны без пробелов или других специальных символов в поле!",
+      "no_country_error": "Необходимо выбрать страну.",
+      "no_digits_error": "Вы также должны ввести телефонные цифры.",
+      "is_valid_number": "является действительным номером телефона",
+      "is_not_valid_number": "является действительным номером телефона",
+      "is_plus_11": " неверный номер телефона. Не вводите код вашей страны в поле ввода. Используйте только выбор страны",
+      "country_label": "Ваша страна",
+      "country_placeholder": "Название страны",
+      "phone_label": "Введите свой номер телефона",
+      "bad_11_prefix": "Недопустимое число: +11 является префиксом страны для Болгарии, а не Канады или США. Не ставите '1' в качестве ведущей цифры",
+      "popup_explanation": {
+        "main_question": "How is my phone number used?",
+        "main_answer": "Your number is shared only with the person you explicitly accept to help you so that you can communicate with each other to carry out the request."
+      }
+    },
+    "verificationCode": {
+      "sub_title": "Мы только что отправили вам код подтверждения. Пожалуйста, введите его ниже.",
+      "info": "Если вы не получили код, нажмите ",
+      "resend": "переотправить",
+      "error_message": "Вставьте полученный номер здесь!"
+    },
+    "newRequest": {
+      "title": "Новый запрос",
+      "icon_text": "Мне нужна помощь",
+      "form": {
+        "title": "Название",
+        "type": "Тип",
+        "address": "Подтвердите адрес",
+        "body": "Введите данные о необходимом",
+        "other": "Пожалуйста, введите свое имя",
+        "consent": "Разрешить push-уведомления. Вы всегда можете изменить это в настройках позже.",
+        "submit": "Следующий",
+        "cancel": "Отменить",
+        "search": "Поиск",
+        "useMyLocation": "Найти меня на карте",
+        "address_error_message": "Пожалуйста, введите Ваш адрес.",
+        "type_error_message": "Вы должны указать сумму.",
+        "other_error_message": "Введите название.",
+        "body_error_message": "Пожалуйста, введите описание проблемы."
+      }
+    },
+    "newRequestSuccess": {
+      "title": "Ваше обращение принято.",
+      "info": "Пожалуйста, будьте терпеливы, пока вы не получите предложение от волонтера.",
+      "remember": "Запомнить",
+      "remember_info": "Как только волонтер предложит вам помощь, вы должны принять их помощь, чтобы они могли увидеть вашу контактную информацию."
+    },
+    "requestReview": {
+      "submit": "Подать запрос",
+      "back": "Назад",
+      "deliveryAddress": "Адрес доставки"
+    },
+    "roleinfo": {
+      "title": "Reach4Help",
+      "sub_title": "Как мы можем Вам помочь?",
+      "manifesto": "Мы считаем, что все, что мы делаем, имеет смысл, и мы считаем, что мы способны помочь людям в их совместном чувстве и общности. Мы считаем, что солидарность открывает перед людьми лучшие возможности.",
+      "info": "Пожалуйста, сообщите нам, что вы хотите использовать Reach4Help",
+      "info_pin": "Я здесь, потому что мне нужна помощь",
+      "c2a_pin": "Получить помощь сейчас",
+      "info_cav": "Я здесь, потому что хочу помочь людям",
+      "c2a_cav": "Начать учиться сейчас!"
+    },
+    "routeSubtitles": {
+      "_login": "LOGIN",
+      "_phone": "Телефон",
+      "_requests": "Запросы",
+      "_personal-data": "Личные данные",
+      "_timeline": "Хронология запроса",
+      "_personal-data_role-info": "Информация о роли",
+      "_phone_entry": "Введите номер телефона",
+      "_phone_verify": "Подтвердить номер телефона",
+      "_requests_accepted": "Подтвердить запрос",
+      "_requests_archived": "Закрытые запросы",
+      "_requests_find": "Найти запросы",
+      "_requests_finished": "Запрос к %s завершен",
+      "_requests_new": "Новый запрос",
+      "_requests_ongoing": "Текущие Соревнования",
+      "_requests_open": "Открытые запросы:",
+      "_settings": "Settings"
+    },
+    "timeline": {
+      "CREATE_REQUEST": "{{actorName}} создал этот запрос.",
+      "CANCEL_REQUEST": "{{actorName}} создал этот запрос.",
+      "REMOVE_REQUEST": "{{actorName}} создал этот запрос",
+      "COMPLETE_REQUEST": "Оплата прошла успешно.",
+      "CREATE_OFFER": "{{actorName}} предложил помочь с этим запросом.",
+      "CAV_DECLINED": "{{actorName}} rejected this request.",
+      "ACCEPT_OFFER": "{{actorName}} принял помощь {{cavUserName}}.",
+      "REJECT_OFFER": "{{actorName}} принял помощь {{cavUserName}}.",
+      "RATE_PIN": "{{actorName}} оценил {{actedUpon}}.",
+      "RATE_CAV": "{{actorName}} оценил {{actedUpon}}.",
+      "open_status": "Открыть",
+      "cav": "Волонтер",
+      "cav_wait": "ОЖИДАНИЕ ВАЛЮТЫ",
+      "address": "Адрес доставки:",
+      "cancelRequest": "Отменить запрос",
+      "finishRequest": "Найти запросы",
+      "ratingQuestion": "Как бы вы оценили ваш опыт",
+      "submitRatingButton": "Отправить оценку",
+      "finishRequestModalParta": "Вы уверены, что хотите закончить",
+      "finishRequestModalPartb": "от",
+      "thankYouModalTitle": "Спасибо!",
+      "thankYouModalBodyParta": "Вы оценили",
+      "thankYouModalBodyPartb": "с"
+    },
+    "modules": {
+      "timeline": {
+        "components": {
+          "OffersList": {
+            "miles": "м.",
+            "kilometers": "километры",
+            "reject": "Отклонить",
+            "accept": "Принимаю",
+            "volunteer_select": "Выберите Волонтёра"
+          }
+        }
+      },
+      "navigation": {
+        "components": {
+          "Header": {
+            "reject_reminder": " Если вы отклоните эту помощь, ваш запрос вернется к списку доступных запросов, но он потеряет приоритет.",
+            "remember": "УДАЛИТЬ",
+            "requests": "Запросы"
+          },
+          "TopPanel": {
+            "a11y_back_nav": "Кнопка \"Назад\"",
+            "a11y_display_photo": "Показать фото",
+            "a11y_location_icon": "Иконка местоположения",
+            "a11y_phone_icon": "Мобильные иконки",
+            "a11y_sms_icon": "Значок SMS"
+          }
+        }
+      },
+      "personal-data": {
+        "components": {
+          "PersonalDataForm": {
+            "sub_title": "Please fill out the personal details below.",
+            "gps_button": "Use GPS to get my address",
+            "gps_unavailable_retry_button": "Geolocation unavailable. Retry.",
+            "learn_reactivate": "Learn how to reactivate geolocation",
+            "retry_geolocation": "Retry Geolocation",
+            "continue_without_geolocation": "Continue without Geolocation",
+            "go_back": "Go Back",
+            "geolocation_modal_title": "Geolocation is not authorized",
+            "geolocation_modal_text": "You can add your location manually, but it would help us get your position more accurately if you would use Geolocation. Please choose one of the options below :",
+            "geolocation_unavailable_title": "Unfortunately, we are not yet available in your location",
+            "geolocation_unavailable_text": "Sorry your location is not yet supported on our platform.  You will be notified by SMS or E-Mail, once our application becomes available at your location.",
+            "instructions_modal_title": "Instructions:",
+            "instructions_modal_text": "You can add your location manually, but it would help us get your position more accurately if you used Geolocation. If you wish to re-activate it, please follow the link :",
+            "policy_text": "We need this data to ensure the help reaches the correct destination. For any concerns, please read our ",
+            "policy_link": "Privacy & Security Policy.",
+            "accept_to_use_profile_pic": "I am okay with letting Reach4Help use my profile picture.",
+            "terms_conditions_text": "I understand and acknowledge the <0>{{linkText}}</0>",
+            "terms_conditions_link_text": "Terms & Conditions.",
+            "terms_conditions_error": "You need to accept the Terms & Conditions.",
+            "full_name_error_message": "Please enter your name.",
+            "display_name_error_message": "Please enter your display name.",
+            "address_error_message": "Please enter your address.",
+            "city_error_message": "Please enter your city.",
+            "country_error_message": "Please enter your country.",
+            "allow_send_notifications": "I would like Reach4Help to send me notifications and emails."
+          }
+        },
+        "containers": {
+          "PersonalDataFormContainer": {
+            "address_error": "К сожалению, мы не смогли определить ваш фактический адрес, попробуйте еще раз!",
+            "missing_data": "Отсутствующие данные!"
+          }
+        }
+      },
+      "requests": {
+        "a11y_profile_pic": "Пик профиля",
+        "AcceptedRequestItem": {
+          "choose_volunteer": "Выберите из следующих волонтеров, чтобы выполнить ваш запрос."
+        },
+        "bottom_warning": "Ваш запрос был рассмотрен несколькими добровольцами, но не был принят. Мы рекомендуем вам &ldquo;закрыть запрос&rdquo; и создать новый с более простым описанием.",
+        "cannot_help": "Не можете отправить",
+        "containers": {
+          "FoundRequestsContainer": {
+            "FoundRequestsContainer": {
+              "map_tab_label": "View Map of Requests",
+              "list_tab_label": "View List of Requests",
+              "no_requests": "Currently there are no requests in your area.  Check the map later.  Also feel free to place a Request for Need"
+            }
+          },
+          "AcceptedRequestContainer": {
+            "accepted": "Принятые"
+          },
+          "FindRequestsContainer": {
+            "want_to_help": "Я хочу Продать"
+          },
+          "FinishedRequestsContainer": {
+            "finished": "Готово"
+          },
+          "NewRequestsContainer": {
+            "address_error": "Не удалось найти адрес",
+            "deliveries": "Доставки"
+          },
+          "OngoingRequestContainer": {
+            "ongoing": "Текущие"
+          },
+          "OpenRequestContainer": {
+            "open": "Открыть"
+          },
+          "no_reply": "Никто не ответил на ваш запрос."
+        }
+      }
+    },
+    "components": {
+      "loading": {
+        "a11y_message": "загружается ..."
+      },
+      "notification": {
+        "a_request": "запрос",
+        "already_helped": " уже получает помощь в ",
+        "cav_declined_help": " отказался помогать в ",
+        "cav_offer": "Вы предложили помощь для ",
+        "no_notifications": "Нет новых уведомлений.",
+        "notifications": "Уведомления",
+        "offered_help": " предложил помощь через ",
+        "pin_accepted": "Вы предложили помощь для ",
+        "pin_declined_help": "Вы предложили помощь для ",
+        "pin_rejected": "Вы предложили помощь для ",
+        "request_author": "Запрос_автор",
+        "volunteer_accepted": " принял ваше предложение на ",
+        "your_task": "Ваши задачи"
+      },
+      "web_client_map": {
+        "a11y_my_location": "Свое местоположение",
+        "a11y_destination": "Куда:",
+        "api_error": "Не удалось установить сопряжение",
+        "distance_error": "Ошибка службы расстояния:",
+        "geocode_error": "Геокодирование не удалось"
+      }
+    }
+  }
+}

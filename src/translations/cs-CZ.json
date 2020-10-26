@@ -1,0 +1,423 @@
+{
+  "common": {
+    "or": "or",
+    "i_understand": "Chápu.",
+    "okay": "OK",
+    "cancel": "Zrušit",
+    "welcome": "Vítejte",
+    "continue": "Pokračovat",
+    "back": "Back",
+    "verify": "Ověřit",
+    "spinner": "Načítáva se ...",
+    "name": "Jméno",
+    "full_name": "Celé jméno",
+    "display_name": "Zobrazovaný název",
+    "display_name_placeholder": "Jméno použité v pozdravu, výchozí hodnota je 1. jméno",
+    "address": "Adresa",
+    "address1": "Řádek adresy 1",
+    "address2": "Adresa (nepovinné)",
+    "city": "Město",
+    "code": "PSČ",
+    "State": "Kraj / Provincie",
+    "country": "Země",
+    "for": " pro ",
+    "information_modal": {
+      "instructions": "Instrukce",
+      "footer": "Pokud máte jakékoliv dotazy nebo potřebujete pomoc, napište nám na support@reach4help.org.",
+      "a11y_logo": "Dosáhněte pro logo nápovědy",
+      "OpenRequestsContainer": {
+        "title": "Stále hledáte pomoc...",
+        "0": "Vaše žádosti jsou tam ven, ale nikdo se zatím nedobrovolně nerozhodl pomoci",
+        "1": "Také budete dostávat oznámení o stavu vašich požadavků.",
+        "2": " Pokud máte nějaké dotazy nebo obtíže, neváhejte kontaktovat support@reach4help.org!"
+      },
+      "AcceptedRequestsContainer": {
+        "title": "Někdo nabídl pomoc!",
+        "0": "Někdo nabídl pomoc.",
+        "1": "Kontaktujte je telefonicky, abyste si mohli přečíst podrobnosti."
+      },
+      "OngoingRequestsContainer": {
+        "title": "Shoduje se s dobrovolníkem!",
+        "0": "Shodujete se s někým, kdo se stará o váš požadavek."
+      },
+      "FinishedRequestsContainer": {
+        "title": "Všechno je nastavené!",
+        "0": "Vy a dobrovolník souhlasíte s tím, že vše bude učiněno."
+      },
+      "ArchivedRequestsContainer": {
+        "title": "Rozhodli jste se, že to neuděláte",
+        "0": "Změnili jste názor a odstranili jste svůj požadavek."
+      },
+      "TimelineViewContainer": {
+        "title": "Zobrazit každý krok vašeho požadavku",
+        "0": "Požadavek byl vytvořen.",
+        "1": "Někdo nabízí pomoc.",
+        "2": "Nabídka je přijata nebo zamítnuta.",
+        "3": "Požadavek je dokončen.",
+        "4": "Požadavek je dokončen.",
+        "5": "Požadavek je dokončen.",
+        "6": "Dobrovolníci a lidé v nouzi se navzájem hodnotí."
+      },
+      "MenuDrawer": {
+        "title": "Použití spodních tlačítek",
+        "0": "Stiskněte levé menu pro sledování každého kroku vašeho požadavku",
+        "1": "Otevření: Požádá, které stále potřebují dobrovolníka",
+        "2": "Někdo nabídl pomoc.",
+        "3": "Probíhá: Na vaší žádosti nyní pracuje dobrovolník.",
+        "4": "Dokončeno: dobrovolník splnil požadavek.",
+        "5": "Archivováno: Žádosti byly odstraněny.",
+        "6": "Stisknutím levého zvonku zobrazíte vaše oznámení"
+      },
+      "FindRequestsContainer": {
+        "title": "Vítejte v Reach4Help!",
+        "0": "Děkujeme, že jste se připojili k Reach4Help!",
+        "1": "Jako dobrovolník budete moci pomoci lidem ve vaší oblasti tím, že budete reagovat na jejich žádosti o pomoc.",
+        "2": "Použijte tuto mapu pro hledání potřebných lidí.",
+        "3": "Kliknutím na oranžovou značku zobrazíte žádost této osoby a rozhodněte, zda ji přijmete",
+        "4": "Jakmile dotyčná osoba přijme vaši nabídku na pomoc, budete si vyměňovat kontaktní informace.",
+        "5": "Podívejte se na oznamovací panel, abyste viděli aktualizace vašich příchozích nabídek.",
+        "6": "Děkujeme, že jste se připojili k nám při budování této jednotné platformy pomoci!"
+      },
+      "NewRequestsContainer": {
+        "title": "Vítejte v Reach4Help!",
+        "0": "Děkujeme, že jste se připojili k Reach4Help! Jako osoba v nouzi se budete moci obrátit na pomoc ve vaší oblasti vytvořením požadavků. V současné době nemůžeme zaručit, že existují dobrovolníci, kteří mohou pomoci ve vaší oblasti, v tom případě navrhujeme sdílení s potenciálními dobrovolníky a místními dobrovolnickými organizacemi. Děkujeme, že jste se připojili k nám při budování této jednotné platformy pomoci!",
+        "1": "Děkujeme vám za odeslání požadavku! Budete upozorněni na nabídku dobrovolníků. Chcete-li zkontrolovat jeho stav, klepněte sem/klepněte sem nebo zkontrolujte ",
+        "2": "Podívejte se na oznamovací panel, abyste viděli aktualizace vašich příchozích nabídek.",
+        "3": "Jakmile přijmete nabídku, vaše informace budou sdíleny s dobrovolníkem.",
+        "4": "Oslovte dobrovolníka (nebo počkejte, až se k vám obrátíme) a koordinujte."
+      }
+    },
+    "login": {
+      "title": "Doach4Nápověda",
+      "sub_title": "Přehled registrace",
+      "info": "Ahoj! Mnohokrát vám děkujeme za váš zájem pomoci vaší komunitě! Pro zajištění bezpečnosti našich uživatelů, pro ověření Vaší identity potřebujeme přihlášení přes Google nebo Facebook a pokud nastanou nějaké nesrovnalosti, kontaktujte vás.\n\nPo tomto kroku budete vyzváni k poskytnutí Vašeho telefonního čísla a k ověření pomocí kódu, který obdržíte prostřednictvím textu. Takto se s vámi lidé nabízející pomoc spojí! Kontaktní údaje jsou sdíleny s druhou osobou pouze tehdy, když jste schválili nabízející osobu. Při odeslání žádosti o pomoc není vaše přesná poloha sdílena (pouze první tři číslice vašeho poštovního směrovacího čísla).\nDěkujeme vám za vaši spolupráci při vytváření bezpečnějšího a užitečnějšího místa! Pokud máte jakékoliv dotazy, kontaktujte nás prosím na support@reach4help. rg.",
+      "facebookButtonLabel": "Pokračovat pomocí Facebooku",
+      "googleButtonLabel": "Pokračovat pomocí účtu Google",
+      "sign_in": {
+        "title": "Login with email",
+        "password_label": "Password",
+        "password_error_message": "Please input your password"
+      },
+      "steps": {
+        "continue": "Continue",
+        "footer": {
+          "contact": "If you have any questions or need assistance feel free to email us at "
+        },
+        "0_welcome": {
+          "title": "Welcome",
+          "welcome": "Welcome to Reach4Help!",
+          "thanks": "Thank you so much for your interest in helping your community"
+        },
+        "1_select_language": {
+          "title": "Language",
+          "select_language_label": "What is your primary language?"
+        },
+        "2_explanation": {
+          "title": "Explanation",
+          "purpose": "Through our platform, you’ll be able to connect with people to recieve and provide help to people in your area!",
+          "connect": "You can connect with volunteers and people in need and people in need by creating requests for help and offering support for those requests."
+        },
+        "2_authentication": {
+          "email_signup": "Sign up with email",
+          "email_signin": "Continue with email",
+          "title": "Identity",
+          "please": "Please sign up with one of the providers below",
+          "popup_explanation": {
+            "main_question": "Why do you need an external account?",
+            "main_answer": "To ensure the safety of our users, we currently require login through Google or Facebook. This is to provide another layer of verification for our users in case we need to contact you.",
+            "second_question": "Can I use other means to verify my identity?",
+            "second_answer": "If you’re uncomfortable using Google/Facebook, you’re welcome to suggest an alternative to"
+          }
+        },
+        "3_email_signin": {
+          "title": "Login with email",
+          "signin": "Login",
+          "email_label": "Email",
+          "email_error_message": "Please input your email",
+          "password_label": "Password",
+          "password_error_message": "Please input the password you will use for Reach4Help",
+          "password_confirm_label": "Confirm password",
+          "password_confirm_empty_message": "Please confirm your password",
+          "password_confirm_error_message": "Your passwords must match"
+        },
+        "4_email_signup": {
+          "title": "Sign up with email",
+          "create_account": "Create Account",
+          "email_label": "Email",
+          "email_error_message": "Please input your email",
+          "password_label": "Password",
+          "password_error_message": "Please input the password you will use for Reach4Help",
+          "password_confirm_label": "Confirm password",
+          "password_confirm_empty_message": "Please confirm your password",
+          "password_confirm_error_message": "Your passwords must match"
+        }
+      }
+    },
+    "menuDrawer": {
+      "changeLanguage": "Change Language",
+      "contactUs": "Kontaktujte nás",
+      "logout": "Odhlásit se",
+      "switchToCAV": "Přepnout na podporu nabídky",
+      "switchToPIN": "Přepnout na pomoc při hledání",
+      "settings": "Settings"
+    },
+    "settings": {
+      "heading": "Settings",
+      "changeName": "Change my name",
+      "deleteAccount": "Delete my account",
+      "changeNameForm": {
+        "full_name_error_message": "Please enter your name",
+        "display_name_error_message": "Please enter your display name",
+        "cancel": "Cancel",
+        "submit": "Save"
+      },
+      "deleteAccountModal": {
+        "title": "Are you sure you want to delete your account",
+        "body": "Closing your account means you will no longer be able to provide help or ask for help",
+        "deleteAccount": "Delete my account"
+      }
+    },
+    "phoneNumber": {
+      "title": "Before you continue...",
+      "select_instructions": "Vybrat z rozbalovacího seznamu níže",
+      "input_instructions": "Zadejte svůj e-mail",
+      "sub_title": "Pro přihlášení zadejte své telefonní číslo",
+      "info": "Tyto informace jsou zásadní pro ověření vašeho účtu. Údaje a sazby se mohou použít.",
+      "error_message": "prosím, zadejte Vaše telefonní číslo!",
+      "phone_valid": "Platné telefonní číslo začíná s + kódem země bez mezer nebo jiných zvláštních znaků v poli!",
+      "no_country_error": "Musí být vybrána země.",
+      "no_digits_error": "Musíte zadat také telefonní čísla.",
+      "is_valid_number": "je platné telefonní číslo",
+      "is_not_valid_number": "není platné telefonní číslo",
+      "is_plus_11": " není platné telefonní číslo. Do vstupního pole nezadávejte kód země. Použijte pouze výběr země",
+      "country_label": "Vaše země",
+      "country_placeholder": "Vybrat zemi",
+      "phone_label": "Vložte své telefonní číslo",
+      "bad_11_prefix": "Neplatné číslo: +11 je prefix země pro Bulharsko, nikoli Kanada nebo Spojené státy. Neuvádějte \"1\" jako svou hlavní číslici",
+      "popup_explanation": {
+        "main_question": "How is my phone number used?",
+        "main_answer": "Your number is shared only with the person you explicitly accept to help you so that you can communicate with each other to carry out the request."
+      }
+    },
+    "verificationCode": {
+      "sub_title": "Právě jsme Vám zaslali potvrzovací kód. Zadejte jej prosím níže.",
+      "info": "Pokud jste neobdrželi kód, prosím klikněte ",
+      "resend": "Znovu odeslat",
+      "error_message": "Zde vložte přijaté číslo!"
+    },
+    "newRequest": {
+      "title": "Nový požadavek",
+      "icon_text": "Potřebuji pomoc",
+      "form": {
+        "title": "Název",
+        "type": "Typ",
+        "address": "POTVRĎTE ADRESU",
+        "body": "Zadejte podrobnosti o tom, co je potřeba",
+        "other": "Prosím, zadejte vaše jméno",
+        "consent": "Povolit Push oznámení. Toto můžete později změnit v nastavení.",
+        "submit": "Další",
+        "cancel": "Zrušit",
+        "search": "Hledat",
+        "useMyLocation": "Použijte moji polohu",
+        "address_error_message": "Prosím, zadejte Vaši adresu.",
+        "type_error_message": "Musíte vybrat typ.",
+        "other_error_message": "Musíte zadat podrobnosti.",
+        "body_error_message": "Zadejte prosím svůj popis."
+      }
+    },
+    "newRequestSuccess": {
+      "title": "Váš požadavek byl vytvořen",
+      "info": "Buďte prosím trpěliví, dokud nedostanete nabídku od dobrovolníka.",
+      "remember": "Zapamatovat",
+      "remember_info": "Jakmile dobrovolník nabídne pomoc, musíte přijmout jejich pomoc, abyste mohli vidět vaše kontaktní informace."
+    },
+    "requestReview": {
+      "submit": "Odeslat žádost",
+      "back": "Zpět",
+      "deliveryAddress": "Doručovací adresa"
+    },
+    "roleinfo": {
+      "title": "Doach4Nápověda",
+      "sub_title": "Jak vám můžeme pomoci?",
+      "manifesto": "Věříme, že všechno, co děláme, je smysluplné, věříme, že jsme schopni umožnit lidem v jejich pocitu pospolitosti a společenství. Věříme, že solidarita přináší jednotlivcům to nejlepší.",
+      "info": "Prosím, řekněte nám, jaký je váš účel používat Reach4Help",
+      "info_pin": "Jsem tady, protože potřebuji pomoc",
+      "c2a_pin": "Získejte pomoc nyní!",
+      "info_cav": "Jsem tady, protože chci pomoci lidem",
+      "c2a_cav": "Začněte obchodovat nyní"
+    },
+    "routeSubtitles": {
+      "_login": "Přihlásit se",
+      "_phone": "Telefon",
+      "_requests": "Požadavků",
+      "_personal-data": "Osobní data",
+      "_timeline": "Časová osa žádosti",
+      "_personal-data_role-info": "Informace o roli",
+      "_phone_entry": "Zadejte telefonní číslo",
+      "_phone_verify": "Zkontrolujte telefonní číslo",
+      "_requests_accepted": "Přijaté žádosti",
+      "_requests_archived": "Uzavřené požadavky",
+      "_requests_find": "Dokončit požadavek",
+      "_requests_finished": "Uzavřené požadavky",
+      "_requests_new": "Nový požadavek",
+      "_requests_ongoing": "Probíhající požadavky",
+      "_requests_open": "Otevřené požadavky",
+      "_settings": "Settings"
+    },
+    "timeline": {
+      "CREATE_REQUEST": "{{actorName}} zavřel tento požadavek.",
+      "CANCEL_REQUEST": "{{actorName}} zavřel tento požadavek.",
+      "REMOVE_REQUEST": "{{actorName}} zavřel tento požadavek",
+      "COMPLETE_REQUEST": "Požadavek byl dokončen.",
+      "CREATE_OFFER": "{{actorName}} nabídl pomoc s touto žádostí.",
+      "CAV_DECLINED": "{{actorName}} zavřel tento požadavek.",
+      "ACCEPT_OFFER": "{{actorName}} přijal {{cavUserName}} pomoc.",
+      "REJECT_OFFER": "{{actorName}} přijal {{cavUserName}} pomoc.",
+      "RATE_PIN": "{{actorName}} ohodnotil {{actedUpon}}.",
+      "RATE_CAV": "{{actorName}} ohodnotil {{actedUpon}}.",
+      "open_status": "Otevřít",
+      "cav": "Dobrovolník",
+      "cav_wait": "ČEKÁNÍ NA PLAVIDLA",
+      "address": "Doručovací adresa:",
+      "cancelRequest": "Zrušit požadavek",
+      "finishRequest": "Dokončit požadavek",
+      "ratingQuestion": "Jak byste ohodnotili svou zkušenost?",
+      "submitRatingButton": "Odeslat hodnocení",
+      "finishRequestModalParta": "Určitě se chcete odhlásit?",
+      "finishRequestModalPartb": "od",
+      "thankYouModalTitle": "Děkujeme Vám!",
+      "thankYouModalBodyParta": "Hodnotili jste",
+      "thankYouModalBodyPartb": "s"
+    },
+    "modules": {
+      "timeline": {
+        "components": {
+          "OffersList": {
+            "miles": "míle",
+            "kilometers": "kilometry",
+            "reject": "Odmítnout",
+            "accept": "Přijmout",
+            "volunteer_select": "Vybrat dobrovolníka"
+          }
+        }
+      },
+      "navigation": {
+        "components": {
+          "Header": {
+            "reject_reminder": " Pokud tuto pomoc odmítnete, váš požadavek se vrátí na seznam dostupných požadavků, ale ztratí prioritu.",
+            "remember": "ODMÍTNUTÍ",
+            "requests": "Požadavků"
+          },
+          "TopPanel": {
+            "a11y_back_nav": "Tlačítko Zpět",
+            "a11y_display_photo": "Zobrazuje fotografie",
+            "a11y_location_icon": "Ikona polohy",
+            "a11y_phone_icon": "Vyberte ikonu",
+            "a11y_sms_icon": "SMS ikona"
+          }
+        }
+      },
+      "personal-data": {
+        "components": {
+          "PersonalDataForm": {
+            "sub_title": "Please fill out the personal details below.",
+            "gps_button": "Use GPS to get my address",
+            "gps_unavailable_retry_button": "Geolocation unavailable. Retry.",
+            "learn_reactivate": "Learn how to reactivate geolocation",
+            "retry_geolocation": "Retry Geolocation",
+            "continue_without_geolocation": "Continue without Geolocation",
+            "go_back": "Go Back",
+            "geolocation_modal_title": "Geolocation is not authorized",
+            "geolocation_modal_text": "You can add your location manually, but it would help us get your position more accurately if you would use Geolocation. Please choose one of the options below :",
+            "geolocation_unavailable_title": "Unfortunately, we are not yet available in your location",
+            "geolocation_unavailable_text": "Sorry your location is not yet supported on our platform.  You will be notified by SMS or E-Mail, once our application becomes available at your location.",
+            "instructions_modal_title": "Instructions:",
+            "instructions_modal_text": "You can add your location manually, but it would help us get your position more accurately if you used Geolocation. If you wish to re-activate it, please follow the link :",
+            "policy_text": "We need this data to ensure the help reaches the correct destination. For any concerns, please read our ",
+            "policy_link": "Privacy & Security Policy.",
+            "accept_to_use_profile_pic": "I am okay with letting Reach4Help use my profile picture.",
+            "terms_conditions_text": "I understand and acknowledge the <0>{{linkText}}</0>",
+            "terms_conditions_link_text": "Terms & Conditions.",
+            "terms_conditions_error": "You need to accept the Terms & Conditions.",
+            "full_name_error_message": "Please enter your name.",
+            "display_name_error_message": "Please enter your display name.",
+            "address_error_message": "Please enter your address.",
+            "city_error_message": "Please enter your city.",
+            "country_error_message": "Please enter your country.",
+            "allow_send_notifications": "I would like Reach4Help to send me notifications and emails."
+          }
+        },
+        "containers": {
+          "PersonalDataFormContainer": {
+            "address_error": "Omlouváme se, ale nemohli jsme zjistit vaši skutečnou adresu, zkuste to prosím znovu!",
+            "missing_data": "Chybějící údaje"
+          }
+        }
+      },
+      "requests": {
+        "a11y_profile_pic": "Profilový Pic",
+        "AcceptedRequestItem": {
+          "choose_volunteer": "Vyberte si z následujících dobrovolníků pro splnění vašeho požadavku."
+        },
+        "bottom_warning": "Váš požadavek byl zobrazen několika dobrovolníky, ale nebyl přijat. Doporučujeme vám &ldquo;Uzavřít požadavek&rdquo; a vytvořit nový s jednodušším popisem.",
+        "cannot_help": "Nemohu pomoci",
+        "containers": {
+          "FoundRequestsContainer": {
+            "FoundRequestsContainer": {
+              "map_tab_label": "View Map of Requests",
+              "list_tab_label": "View List of Requests",
+              "no_requests": "Currently there are no requests in your area.  Check the map later.  Also feel free to place a Request for Need"
+            }
+          },
+          "AcceptedRequestContainer": {
+            "accepted": "Přijato"
+          },
+          "FindRequestsContainer": {
+            "want_to_help": "Chci hrát"
+          },
+          "FinishedRequestsContainer": {
+            "finished": "Dokončeno"
+          },
+          "NewRequestsContainer": {
+            "address_error": "Obrázek se nepodařilo najít:",
+            "deliveries": "Dodávky"
+          },
+          "OngoingRequestContainer": {
+            "ongoing": "Probíhá"
+          },
+          "OpenRequestContainer": {
+            "open": "Otevřít"
+          },
+          "no_reply": "Někdo odpověděl na tvůj komentář."
+        }
+      }
+    },
+    "components": {
+      "loading": {
+        "a11y_message": "načítáva se ..."
+      },
+      "notification": {
+        "a_request": "požadavek",
+        "already_helped": " již dostává pomoc v ",
+        "cav_declined_help": " odmítl pomoci v ",
+        "cav_offer": "Nabídli jste pomoc pro ",
+        "no_notifications": "Žádné nové oznámení",
+        "notifications": "Oznámení",
+        "offered_help": " nabídl pomoc v ",
+        "pin_accepted": "Nabídli jste pomoc pro ",
+        "pin_declined_help": "Nabídli jste pomoc pro ",
+        "pin_rejected": "Nabídli jste pomoc pro ",
+        "request_author": "Žádní_autor",
+        "volunteer_accepted": " přijal vaši nabídku pro ",
+        "your_task": "tvůj úkol"
+      },
+      "web_client_map": {
+        "a11y_my_location": "Moje poloha",
+        "a11y_destination": "Cíl",
+        "api_error": "Nepodařilo se přihlásit",
+        "distance_error": "Chyba služby vzdálenosti:",
+        "geocode_error": "Nelze geocode"
+      }
+    }
+  }
+}

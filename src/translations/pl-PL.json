@@ -1,0 +1,423 @@
+{
+  "common": {
+    "or": "or",
+    "i_understand": "Rozumiem.",
+    "okay": "W porządku",
+    "cancel": "Anuluj",
+    "welcome": "Witaj",
+    "continue": "Dalej",
+    "back": "Back",
+    "verify": "Potwiedź",
+    "spinner": "Wczytywanie ...",
+    "name": "Nazwa",
+    "full_name": "Pełna nazwa",
+    "display_name": "Nazwa wyświetlana",
+    "display_name_placeholder": "Nazwa używana w pozdrowieniach, domyślnie do pierwszej nazwy",
+    "address": "Address",
+    "address1": "Adres linia 1",
+    "address2": "Adres (opcjonalnie)",
+    "city": "Miasto",
+    "code": "Kod pocztowy",
+    "State": "Wojwództwo. \\/ Gmina",
+    "country": "Kraj",
+    "for": "dla",
+    "information_modal": {
+      "instructions": "Instrukcja",
+      "footer": "Jeśli masz jakiekolwiek pytania lub potrzebujesz pomocy, skontaktuj się z nami support@crowdin.com",
+      "a11y_logo": "Dotrzyj do logo pomocy",
+      "OpenRequestsContainer": {
+        "title": "Nadal szukaj pomocy...",
+        "0": "Twoje prośby są gotowe, ale nikt jeszcze nie wysłał wolontariuszy do pomocy",
+        "1": "Otrzymasz również powiadomienia, aby zaktualizować stan Twoich żądań.",
+        "2": " Jeśli masz z tym jakieś pytania lub trudności, nie wahaj się skontaktować z support@reach4help.org!"
+      },
+      "AcceptedRequestsContainer": {
+        "title": "Ktoś zaoferował pomoc!",
+        "0": "Ktoś zaoferował Ci pomoc.",
+        "1": "Skontaktuj się z nimi telefonicznie, aby opracować szczegóły."
+      },
+      "OngoingRequestsContainer": {
+        "title": "Dopasowano do wolontariusza!",
+        "0": "Dopasowałeś się z kimś, kto troszczy się o Twoje żądanie."
+      },
+      "FinishedRequestsContainer": {
+        "title": "Wszystko zrobione!",
+        "0": "Pan i wolontariusz zgadzają się, że wszystko zostało zrobione."
+      },
+      "ArchivedRequestsContainer": {
+        "title": "Zdecydowałeś się tego nie robić",
+        "0": "Zmieniłeś zdanie i usunąłeś żądanie."
+      },
+      "TimelineViewContainer": {
+        "title": "Zobacz każdy krok Twojego żądania",
+        "0": "Żądanie zostało utworzone.",
+        "1": "Ktoś oferuje pomoc.",
+        "2": "Kiedy propozycja jest akceptowana lub odrzucona",
+        "3": "Nieprawidłowe żądanie.",
+        "4": "Nieprawidłowe żądanie.",
+        "5": "Nieprawidłowe żądanie.",
+        "6": "Wolontariusze i ludzie potrzebujący oceniają się wzajemnie."
+      },
+      "MenuDrawer": {
+        "title": "Używanie dolnych przycisków",
+        "0": "Naciśnij lewe menu aby śledzić każdy krok żądania",
+        "1": "Otwarte: Żądania, które nadal potrzebują wolontariusza",
+        "2": "Ktoś zaoferował Ci pomoc.",
+        "3": "W toku: wolontariusz pracuje teraz nad twoim wnioskiem.",
+        "4": "Zakończono: wolontariusz ukończył żądanie.",
+        "5": "Archiwizacja: Prośby które zostały usunięte.",
+        "6": "Naciśnij lewy Bell, aby zobaczyć powiadomienia"
+      },
+      "FindRequestsContainer": {
+        "title": "Witaj w Reach4Help!",
+        "0": "Dziękujemy za dołączenie do Reach4Help!",
+        "1": "Jako wolontariusz będziesz mógł pomóc ludziom w Twojej okolicy, odpowiadając na ich prośby o pomoc.",
+        "2": "Użyj tej mapy, aby wyszukać osoby w potrzebie.",
+        "3": "Kliknij na pomarańczowy znacznik, aby zobaczyć prośbę tej osoby i zdecydować, czy ją zaakceptować",
+        "4": "Gdy osoba potrzebująca przyjmie Twoją ofertę pomocy, wymienisz się informacjami kontaktowymi.",
+        "5": "Sprawdź panel powiadomień, aby zobaczyć informacje o swoich ofertach, które chcesz pomóc.",
+        "6": "Dziękujemy za przyłączenie się do nas w tworzeniu tej jednolitej platformy pomocy!"
+      },
+      "NewRequestsContainer": {
+        "title": "Witaj w Reach4Help!",
+        "0": "Dziękujemy za dołączenie do Reach4Help! Jako osoba w potrzebie, będziesz mógł uzyskać pomoc w Twojej okolicy tworząc prośby. Obecnie nie możemy zagwarantować, że są wolontariusze, którzy mogą pomóc w Twojej okolicy, W takim przypadku sugerowalibyśmy dzielenie się nim z potencjalnymi wolontariuszami i lokalnymi organizacjami wolontariuszy. Dziękujemy za przyłączenie się do nas w tworzeniu tej jednolitej platformy pomocy!",
+        "1": "Dziękujemy za wysłanie zgłoszenia! Zostaniesz powiadomiony, gdy wolontariusz oferuje akceptację zgłoszenia. Aby sprawdzić jego status, kliknij lub kliknij tutaj lub sprawdź ",
+        "2": "Sprawdź panel powiadomień, aby zobaczyć informacje o swoich ofertach, które chcesz pomóc.",
+        "3": "Po przyjęciu oferty, Twoje informacje zostaną udostępnione wolontariuszowi.",
+        "4": "Skontaktuj się z wolontariuszem (lub poczekaj, aż skontaktują się z Tobą), aby skoordynować."
+      }
+    },
+    "login": {
+      "title": "Osiągnij 4Pomoc",
+      "sub_title": "Przegląd rejestracji",
+      "info": "Witaj! Dziękujemy za zainteresowanie wsparciem swojej społeczności! Zapewnienie bezpieczeństwa naszym użytkownikom, obecnie wymagamy zalogowania za pośrednictwem Google lub Facebooka, aby zweryfikować Twoją tożsamość i skontaktować się z Tobą w razie jakichkolwiek rozbieżności.\n\nPo tym kroku zostaniesz poproszony o podanie numeru telefonu i zweryfikowanie go za pomocą kodu, który otrzymasz za pomocą tekstu. W ten sposób ludzie oferujący pomoc skontaktują się z Tobą! Dane kontaktowe są udostępniane drugiej osobie tylko wtedy, gdy zatwierdzą Państwo osobę proponującą im pomoc. Kiedy wysyłasz prośbę o pomoc, Twoja dokładna lokalizacja nie jest udostępniona (tylko trzy pierwsze cyfry Twojego kodu pocztowego).\nDziękujemy za współpracę w uczynieniu naszego świata bezpieczniejszym i bardziej pomocnym miejscem! Jeśli masz jakieś pytania, skontaktuj się z nami pod adresem support@reach4help. rg.",
+      "facebookButtonLabel": "Kontynuuj przez Facebook",
+      "googleButtonLabel": "Kontynuuj przez Google",
+      "sign_in": {
+        "title": "Login with email",
+        "password_label": "Password",
+        "password_error_message": "Please input your password"
+      },
+      "steps": {
+        "continue": "Continue",
+        "footer": {
+          "contact": "If you have any questions or need assistance feel free to email us at "
+        },
+        "0_welcome": {
+          "title": "Welcome",
+          "welcome": "Welcome to Reach4Help!",
+          "thanks": "Thank you so much for your interest in helping your community"
+        },
+        "1_select_language": {
+          "title": "Language",
+          "select_language_label": "What is your primary language?"
+        },
+        "2_explanation": {
+          "title": "Explanation",
+          "purpose": "Through our platform, you’ll be able to connect with people to recieve and provide help to people in your area!",
+          "connect": "You can connect with volunteers and people in need and people in need by creating requests for help and offering support for those requests."
+        },
+        "2_authentication": {
+          "email_signup": "Sign up with email",
+          "email_signin": "Continue with email",
+          "title": "Identity",
+          "please": "Please sign up with one of the providers below",
+          "popup_explanation": {
+            "main_question": "Why do you need an external account?",
+            "main_answer": "To ensure the safety of our users, we currently require login through Google or Facebook. This is to provide another layer of verification for our users in case we need to contact you.",
+            "second_question": "Can I use other means to verify my identity?",
+            "second_answer": "If you’re uncomfortable using Google/Facebook, you’re welcome to suggest an alternative to"
+          }
+        },
+        "3_email_signin": {
+          "title": "Login with email",
+          "signin": "Login",
+          "email_label": "Email",
+          "email_error_message": "Please input your email",
+          "password_label": "Password",
+          "password_error_message": "Please input the password you will use for Reach4Help",
+          "password_confirm_label": "Confirm password",
+          "password_confirm_empty_message": "Please confirm your password",
+          "password_confirm_error_message": "Your passwords must match"
+        },
+        "4_email_signup": {
+          "title": "Sign up with email",
+          "create_account": "Create Account",
+          "email_label": "Email",
+          "email_error_message": "Please input your email",
+          "password_label": "Password",
+          "password_error_message": "Please input the password you will use for Reach4Help",
+          "password_confirm_label": "Confirm password",
+          "password_confirm_empty_message": "Please confirm your password",
+          "password_confirm_error_message": "Your passwords must match"
+        }
+      }
+    },
+    "menuDrawer": {
+      "changeLanguage": "Change Language",
+      "contactUs": "Napisz do nas",
+      "logout": "Wylogować się",
+      "switchToCAV": "Przełącz na wsparcie oferty",
+      "switchToPIN": "Przełącz na wyszukiwanie pomocy",
+      "settings": "Settings"
+    },
+    "settings": {
+      "heading": "Settings",
+      "changeName": "Change my name",
+      "deleteAccount": "Delete my account",
+      "changeNameForm": {
+        "full_name_error_message": "Please enter your name",
+        "display_name_error_message": "Please enter your display name",
+        "cancel": "Cancel",
+        "submit": "Save"
+      },
+      "deleteAccountModal": {
+        "title": "Are you sure you want to delete your account",
+        "body": "Closing your account means you will no longer be able to provide help or ask for help",
+        "deleteAccount": "Delete my account"
+      }
+    },
+    "phoneNumber": {
+      "title": "Before you continue...",
+      "select_instructions": "Wybierz z listy rozwijanej poniżej",
+      "input_instructions": "Podaj domenę.",
+      "sub_title": "Wprowadź swój numer telefonu, aby się zalogować",
+      "info": "Ta informacja ma zasadnicze znaczenie dla weryfikacji Twojego konta. Dane i stawki mogą być stosowane.",
+      "error_message": "wprowadź swój numer telefonu!",
+      "phone_valid": "Prawidłowy numer telefonu zaczyna się od + i kodu kraju bez spacji lub innych znaków specjalnych w polu!",
+      "no_country_error": "Należy wybrać kraj.",
+      "no_digits_error": "Musisz również wprowadzić cyfry telefonu.",
+      "is_valid_number": "jest prawidłowym numerem telefonu",
+      "is_not_valid_number": "jest prawidłowym numerem telefonu",
+      "is_plus_11": " nie jest prawidłowym numerem telefonu. Nie wpisuj kodu kraju w polu wejściowym. Użyj tylko wyboru kraju",
+      "country_label": "Twój kraj",
+      "country_placeholder": "Wybierz kraj",
+      "phone_label": "Podaj swój numer telefonu",
+      "bad_11_prefix": "Nieprawidłowy numer: +11 jest prefiksem kraju dla Bułgarii, nie Kanady ani Stanów Zjednoczonych. Nie wpisuj '1' jako wiodącą cyfrę",
+      "popup_explanation": {
+        "main_question": "How is my phone number used?",
+        "main_answer": "Your number is shared only with the person you explicitly accept to help you so that you can communicate with each other to carry out the request."
+      }
+    },
+    "verificationCode": {
+      "sub_title": "Właśnie napisaliśmy Ci kod potwierdzający. Wprowadź go poniżej.",
+      "info": "Jeśli nie otrzymałeś kodu, kliknij ",
+      "resend": "wyślij",
+      "error_message": "Wstaw otrzymany numer tutaj!"
+    },
+    "newRequest": {
+      "title": "Nowe żądanie",
+      "icon_text": "Potrzebuję pomocy",
+      "form": {
+        "title": "Tytuł",
+        "type": "Typ",
+        "address": "Potwierdź adres",
+        "body": "Wprowadź szczegóły tego, co jest potrzebne",
+        "other": "Wpisz swoje imię",
+        "consent": "Zezwalaj na powiadomienia Push i zawsze możesz to zmienić w ustawieniach później.",
+        "submit": "Dalej",
+        "cancel": "Anuluj",
+        "search": "Szukaj",
+        "useMyLocation": "Udostępnij moją lokalizację",
+        "address_error_message": "Podaj adres.",
+        "type_error_message": "Musisz wybrać kwotę.",
+        "other_error_message": "Musisz wpisać tytuł.",
+        "body_error_message": "Wprowadź opis problemu."
+      }
+    },
+    "newRequestSuccess": {
+      "title": "Twoje polecenie zostało stworzone",
+      "info": "Prosimy o cierpliwość, dopóki nie otrzymasz oferty od wolontariusza.",
+      "remember": "Zapamiętaj",
+      "remember_info": "Gdy wolontariusz zaoferuje pomoc, musisz zaakceptować jego pomoc, aby zobaczyć Twoje dane kontaktowe."
+    },
+    "requestReview": {
+      "submit": "Dodaj zgłoszenie",
+      "back": "Wstecz",
+      "deliveryAddress": "Data dostawy"
+    },
+    "roleinfo": {
+      "title": "Osiągnij 4Pomoc",
+      "sub_title": "Jak możemy Ci pomóc?",
+      "manifesto": "Wierzymy, że wszystko co robimy, jest sensowne. Wierzymy, że jesteśmy w stanie umożliwić ludziom wspólne i wspólnoty. Uważamy, że solidarność przynosi najlepsze wyniki jednostkom.",
+      "info": "Powiedz nam, jaki jest twój cel korzystania z Reach4Help",
+      "info_pin": "Jestem tutaj, ponieważ potrzebuję pomocy",
+      "c2a_pin": "Uzyskaj pomoc teraz!",
+      "info_cav": "Jestem tutaj, ponieważ chcę pomóc ludziom",
+      "c2a_cav": "Rozpocznij handel"
+    },
+    "routeSubtitles": {
+      "_login": "Anmelden",
+      "_phone": "Telefon",
+      "_requests": "Zapytań",
+      "_personal-data": "Dane osobowe",
+      "_timeline": "Żądanie osi czasu",
+      "_personal-data_role-info": "Informacje o roli",
+      "_phone_entry": "Wprowadź numer telefonu",
+      "_phone_verify": "Zweryfikuj przez telefon",
+      "_requests_accepted": "Akceptuję Żądanie",
+      "_requests_archived": "Zamknięte żądania",
+      "_requests_find": "Zakończ żądanie",
+      "_requests_finished": "Żądanie wysłane do %s",
+      "_requests_new": "Nowe żądanie",
+      "_requests_ongoing": "Trwające żądania",
+      "_requests_open": "Aktualne żądania:",
+      "_settings": "Settings"
+    },
+    "timeline": {
+      "CREATE_REQUEST": "{{actorName}} zamknął to żądanie.",
+      "CANCEL_REQUEST": "{{actorName}} zamknął to żądanie.",
+      "REMOVE_REQUEST": "{{actorName}} usunął to żądanie",
+      "COMPLETE_REQUEST": "Płatność została zakończona.",
+      "CREATE_OFFER": "{{actorName}} zaoferował/a pomoc przy tym żądaniu.",
+      "CAV_DECLINED": "{{actorName}} rejected this request.",
+      "ACCEPT_OFFER": "{{actorName}} zaakceptował pomoc {{cavUserName}}.",
+      "REJECT_OFFER": "{{actorName}} odrzucił {{cavUserName}} pomocy.",
+      "RATE_PIN": "{{actorName}} ocenił {{actedUpon}}.",
+      "RATE_CAV": "{{actorName}} ocenił {{actedUpon}}.",
+      "open_status": "Otwarty",
+      "cav": "Wolontariusz",
+      "cav_wait": "Oczekiwanie na VOLUNTEER",
+      "address": "Adres dostawy:",
+      "cancelRequest": "Anuluj żądanie",
+      "finishRequest": "Zakończ żądanie",
+      "ratingQuestion": "Jak oceniłbyś swoje doświadczenia?",
+      "submitRatingButton": "Prześlij ocenę",
+      "finishRequestModalParta": "Czy na pewno chcesz wyjść?",
+      "finishRequestModalPartb": "Z",
+      "thankYouModalTitle": "Thank you!",
+      "thankYouModalBodyParta": "Oceniłeś",
+      "thankYouModalBodyPartb": "z"
+    },
+    "modules": {
+      "timeline": {
+        "components": {
+          "OffersList": {
+            "miles": "mile",
+            "kilometers": "kilometry",
+            "reject": "Odrzuć",
+            "accept": "Akceptuj",
+            "volunteer_select": "Wybierz wolontariusza"
+          }
+        }
+      },
+      "navigation": {
+        "components": {
+          "Header": {
+            "reject_reminder": " Jeśli odrzucisz tę pomoc, Twoje żądanie wróci do listy dostępnych żądań, ale straci priorytet.",
+            "remember": "ODCZYNNIK",
+            "requests": "Requests"
+          },
+          "TopPanel": {
+            "a11y_back_nav": "Przycisk cofania",
+            "a11y_display_photo": "Zdjęcie",
+            "a11y_location_icon": "Ikona lokalizacji",
+            "a11y_phone_icon": "Ikony telefonu",
+            "a11y_sms_icon": "Ikona SMS"
+          }
+        }
+      },
+      "personal-data": {
+        "components": {
+          "PersonalDataForm": {
+            "sub_title": "Please fill out the personal details below.",
+            "gps_button": "Use GPS to get my address",
+            "gps_unavailable_retry_button": "Geolocation unavailable. Retry.",
+            "learn_reactivate": "Learn how to reactivate geolocation",
+            "retry_geolocation": "Retry Geolocation",
+            "continue_without_geolocation": "Continue without Geolocation",
+            "go_back": "Go Back",
+            "geolocation_modal_title": "Geolocation is not authorized",
+            "geolocation_modal_text": "You can add your location manually, but it would help us get your position more accurately if you would use Geolocation. Please choose one of the options below :",
+            "geolocation_unavailable_title": "Unfortunately, we are not yet available in your location",
+            "geolocation_unavailable_text": "Sorry your location is not yet supported on our platform.  You will be notified by SMS or E-Mail, once our application becomes available at your location.",
+            "instructions_modal_title": "Instructions:",
+            "instructions_modal_text": "You can add your location manually, but it would help us get your position more accurately if you used Geolocation. If you wish to re-activate it, please follow the link :",
+            "policy_text": "We need this data to ensure the help reaches the correct destination. For any concerns, please read our ",
+            "policy_link": "Privacy & Security Policy.",
+            "accept_to_use_profile_pic": "I am okay with letting Reach4Help use my profile picture.",
+            "terms_conditions_text": "I understand and acknowledge the <0>{{linkText}}</0>",
+            "terms_conditions_link_text": "Terms & Conditions.",
+            "terms_conditions_error": "You need to accept the Terms & Conditions.",
+            "full_name_error_message": "Please enter your name.",
+            "display_name_error_message": "Please enter your display name.",
+            "address_error_message": "Please enter your address.",
+            "city_error_message": "Please enter your city.",
+            "country_error_message": "Please enter your country.",
+            "allow_send_notifications": "I would like Reach4Help to send me notifications and emails."
+          }
+        },
+        "containers": {
+          "PersonalDataFormContainer": {
+            "address_error": "Przepraszamy, nie mogliśmy określić Twojego aktualnego adresu, spróbuj ponownie!",
+            "missing_data": "Brakujące dane"
+          }
+        }
+      },
+      "requests": {
+        "a11y_profile_pic": "Profil Pic",
+        "AcceptedRequestItem": {
+          "choose_volunteer": "Wybierz spośród następujących wolontariuszy, aby spełnić Twoje żądanie."
+        },
+        "bottom_warning": "Twoje żądanie zostało oglądane przez kilku wolontariuszy, ale nie zostało przyjęte. Sugerujemy &ldquo;Zamknij żądanie&rdquo; i utwórz nowe, z prostszym opisem.",
+        "cannot_help": "Nie można pomóc",
+        "containers": {
+          "FoundRequestsContainer": {
+            "FoundRequestsContainer": {
+              "map_tab_label": "View Map of Requests",
+              "list_tab_label": "View List of Requests",
+              "no_requests": "Currently there are no requests in your area.  Check the map later.  Also feel free to place a Request for Need"
+            }
+          },
+          "AcceptedRequestContainer": {
+            "accepted": "Zaakceptowane"
+          },
+          "FindRequestsContainer": {
+            "want_to_help": "Chcesz pomóc?"
+          },
+          "FinishedRequestsContainer": {
+            "finished": "Zakończono"
+          },
+          "NewRequestsContainer": {
+            "address_error": "Nie można znaleźć podanego adresu",
+            "deliveries": "Dostawy"
+          },
+          "OngoingRequestContainer": {
+            "ongoing": "Bieżące"
+          },
+          "OpenRequestContainer": {
+            "open": "Otwarty"
+          },
+          "no_reply": "Ktoś odpowiedział na twój komentarz."
+        }
+      }
+    },
+    "components": {
+      "loading": {
+        "a11y_message": "wczytywanie ..."
+      },
+      "notification": {
+        "a_request": "prośba",
+        "already_helped": " już otrzymuje pomoc w ",
+        "cav_declined_help": " odmówił pomocy w ",
+        "cav_offer": "Zaoferowałeś pomoc dla ",
+        "no_notifications": "Brak nowych powiadomień.",
+        "notifications": "Powiadomienia",
+        "offered_help": " zaoferował pomoc w ",
+        "pin_accepted": "Zaoferowałeś pomoc dla ",
+        "pin_declined_help": "Zaoferowałeś pomoc dla ",
+        "pin_rejected": "Zaoferowałeś pomoc dla ",
+        "request_author": "Autor żądania",
+        "volunteer_accepted": " zaakceptował Twoją ofertę ",
+        "your_task": "Twoje zadanie"
+      },
+      "web_client_map": {
+        "a11y_my_location": "Moja lokalizacja",
+        "a11y_destination": "Cel",
+        "api_error": "Błąd logowania",
+        "distance_error": "Błąd usługi odległości:",
+        "geocode_error": "Nie można geokodować"
+      }
+    }
+  }
+}

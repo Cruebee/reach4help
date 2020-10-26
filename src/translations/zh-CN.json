@@ -1,0 +1,423 @@
+{
+  "common": {
+    "or": "or",
+    "i_understand": "我明白了。",
+    "okay": "好",
+    "cancel": "取消",
+    "welcome": "欢迎使用",
+    "continue": "继续",
+    "back": "Back",
+    "verify": "验证",
+    "spinner": "正在载入...",
+    "name": "应用名",
+    "full_name": "全名",
+    "display_name": "显示昵称",
+    "display_name_placeholder": "在问候中使用的名称，默认为第一名",
+    "address": "地址",
+    "address1": "地址行1",
+    "address2": "地址行 2（选填）",
+    "city": "城市",
+    "code": "邮政编码:",
+    "State": "州 / 省",
+    "country": "国家",
+    "for": "为",
+    "information_modal": {
+      "instructions": "说明",
+      "footer": "如果您有任何问题或需要援助，请随时发送电子邮件给我们 support@reach4help.org。",
+      "a11y_logo": "联系帮助徽标",
+      "OpenRequestsContainer": {
+        "title": "仍在寻求帮助...",
+        "0": "您的请求已经出去，但还没有人自愿提供帮助",
+        "1": "您还将收到通知以更新您的请求状态。",
+        "2": " 如果您对此有任何疑问或困难，请不要犹豫联系support@reach4help.org！"
+      },
+      "AcceptedRequestsContainer": {
+        "title": "有人已主动提出提供帮助！",
+        "0": "有人已主动提出提供帮助！",
+        "1": "通过手机与他们取得联系以了解详情。"
+      },
+      "OngoingRequestsContainer": {
+        "title": "与志愿者配对！",
+        "0": "您与正在处理您的请求的人匹配。"
+      },
+      "FinishedRequestsContainer": {
+        "title": "全部完成！",
+        "0": "你和志愿者都同意做一切。"
+      },
+      "ArchivedRequestsContainer": {
+        "title": "你决定不做它",
+        "0": "你改变了主意，删除了你的请求。"
+      },
+      "TimelineViewContainer": {
+        "title": "查看您请求的每一步",
+        "0": "请求已创建。",
+        "1": "有人提供帮助。",
+        "2": "当提案被接受或拒绝",
+        "3": "项目完成。",
+        "4": "项目完成。",
+        "5": "项目完成。",
+        "6": "志愿人员和需要帮助的人相互评分。"
+      },
+      "MenuDrawer": {
+        "title": "使用底部按钮",
+        "0": "按左键菜单来跟踪您请求的每个步骤",
+        "1": "打开：仍然需要志愿者的请求",
+        "2": "有人已主动提出提供帮助！",
+        "3": "正在进行：一名志愿者正在根据您的请求工作。",
+        "4": "完成：该志愿者已完成请求。",
+        "5": "存档：删除请求。",
+        "6": "按左响铃查看您的通知"
+      },
+      "FindRequestsContainer": {
+        "title": "欢迎使用 Reach4Help ！",
+        "0": "感谢您加入 Reach4Help！",
+        "1": "作为志愿者，你可以通过响应他们的帮助请求来帮助你所在地区的人们。",
+        "2": "使用此地图来搜索有需要的人。",
+        "3": "点击橙色标记查看此人的请求并决定是否接受",
+        "4": "一旦有需要的人接受您的求助，您将交流联系信息。",
+        "5": "请检查通知面板以查看关于您要帮助的报价的更新。",
+        "6": "感谢您加入我们创建这个统一的帮助平台！"
+      },
+      "NewRequestsContainer": {
+        "title": "欢迎使用 Reach4Help ！",
+        "0": "感谢您加入 Reach4Help！作为一个需要帮助的人，您可以通过创建请求联系您所在的地区。 目前，我们不能保证有志愿者可以在你的地区提供帮助。 在这种情况下，我们建议与潜在的志愿者和当地志愿者组织分享。 感谢您加入我们创建这个统一的帮助平台！",
+        "1": "感谢您提交请求！当志愿者提出接受请求时，您会收到通知。要检查其状态，点击/点击此处或检查 ",
+        "2": "请检查通知面板以查看关于您要帮助的报价的更新。",
+        "3": "一旦您接受报价，您的信息将与志愿者共享。",
+        "4": "联系志愿人员（或等待他们与你联系）进行协调。"
+      }
+    },
+    "login": {
+      "title": "到达4帮助",
+      "sub_title": "注册概览",
+      "info": "你好！非常感谢你关心帮助你的社区！ 确保我们用户的安全， 我们目前需要通过 Google 或 Facebook 登录来验证您的身份，并在出现任何差异时与您联系。\n\n在这个步骤之后，您将被要求提供您的电话号码并通过一个代码验证它，您将会通过文本接收。 这正是提供帮助的人与你联系的方式！ 联系信息只在您批准帮助他们的人时才与对方共享。 当您提交请求帮助时，您的准确位置不会共享(只有您邮政编码的前三位数)。\n谢谢你们在使我们的世界成为一个更安全和更有用的地方方面所给予的合作！ 如果您有任何疑问，请通过support@reach4help联系我们。 毫克",
+      "facebookButtonLabel": "以脸书帐号登录",
+      "googleButtonLabel": "继续用Google",
+      "sign_in": {
+        "title": "Login with email",
+        "password_label": "Password",
+        "password_error_message": "Please input your password"
+      },
+      "steps": {
+        "continue": "Continue",
+        "footer": {
+          "contact": "If you have any questions or need assistance feel free to email us at "
+        },
+        "0_welcome": {
+          "title": "Welcome",
+          "welcome": "Welcome to Reach4Help!",
+          "thanks": "Thank you so much for your interest in helping your community"
+        },
+        "1_select_language": {
+          "title": "Language",
+          "select_language_label": "What is your primary language?"
+        },
+        "2_explanation": {
+          "title": "Explanation",
+          "purpose": "Through our platform, you’ll be able to connect with people to recieve and provide help to people in your area!",
+          "connect": "You can connect with volunteers and people in need and people in need by creating requests for help and offering support for those requests."
+        },
+        "2_authentication": {
+          "email_signup": "Sign up with email",
+          "email_signin": "Continue with email",
+          "title": "Identity",
+          "please": "Please sign up with one of the providers below",
+          "popup_explanation": {
+            "main_question": "Why do you need an external account?",
+            "main_answer": "To ensure the safety of our users, we currently require login through Google or Facebook. This is to provide another layer of verification for our users in case we need to contact you.",
+            "second_question": "Can I use other means to verify my identity?",
+            "second_answer": "If you’re uncomfortable using Google/Facebook, you’re welcome to suggest an alternative to"
+          }
+        },
+        "3_email_signin": {
+          "title": "Login with email",
+          "signin": "Login",
+          "email_label": "Email",
+          "email_error_message": "Please input your email",
+          "password_label": "Password",
+          "password_error_message": "Please input the password you will use for Reach4Help",
+          "password_confirm_label": "Confirm password",
+          "password_confirm_empty_message": "Please confirm your password",
+          "password_confirm_error_message": "Your passwords must match"
+        },
+        "4_email_signup": {
+          "title": "Sign up with email",
+          "create_account": "Create Account",
+          "email_label": "Email",
+          "email_error_message": "Please input your email",
+          "password_label": "Password",
+          "password_error_message": "Please input the password you will use for Reach4Help",
+          "password_confirm_label": "Confirm password",
+          "password_confirm_empty_message": "Please confirm your password",
+          "password_confirm_error_message": "Your passwords must match"
+        }
+      }
+    },
+    "menuDrawer": {
+      "changeLanguage": "Change Language",
+      "contactUs": "聯絡我們",
+      "logout": "登出",
+      "switchToCAV": "切换到提供支持",
+      "switchToPIN": "切换到寻找帮助",
+      "settings": "Settings"
+    },
+    "settings": {
+      "heading": "Settings",
+      "changeName": "Change my name",
+      "deleteAccount": "Delete my account",
+      "changeNameForm": {
+        "full_name_error_message": "Please enter your name",
+        "display_name_error_message": "Please enter your display name",
+        "cancel": "Cancel",
+        "submit": "Save"
+      },
+      "deleteAccountModal": {
+        "title": "Are you sure you want to delete your account",
+        "body": "Closing your account means you will no longer be able to provide help or ask for help",
+        "deleteAccount": "Delete my account"
+      }
+    },
+    "phoneNumber": {
+      "title": "Before you continue...",
+      "select_instructions": "从下面的下拉列表中选择",
+      "input_instructions": "填写您的电子邮件",
+      "sub_title": "输入您的电话号码以开始",
+      "info": "此信息对于验证您的帐户至关重要。数据和费率可能适用。",
+      "error_message": "请输入您的手机号",
+      "phone_valid": "有效的电话号码以 + 和国家代码开头，在字段中没有空格或其他特殊字符！",
+      "no_country_error": "必须选择一个国家。",
+      "no_digits_error": "您也必须输入手机数字。",
+      "is_valid_number": "是一个有效的电话号码",
+      "is_not_valid_number": "是一个有效的电话号码",
+      "is_plus_11": " 不是一个有效的电话号码。不要将您的国家代码输入输入框。只能使用国家选择器",
+      "country_label": "你的地區",
+      "country_placeholder": "选择国家",
+      "phone_label": "输入您的手机号码",
+      "bad_11_prefix": "无效号码：+11 是保加利亚的国家前缀，而不是加拿大或美国。不要将“1”作为您的主要数字",
+      "popup_explanation": {
+        "main_question": "How is my phone number used?",
+        "main_answer": "Your number is shared only with the person you explicitly accept to help you so that you can communicate with each other to carry out the request."
+      }
+    },
+    "verificationCode": {
+      "sub_title": "我们只是给你写了一个确认码。请在下面输入它。",
+      "info": "如果您没有收到代码，请点击 ",
+      "resend": "重新发送",
+      "error_message": "在这里插入收到的号码！"
+    },
+    "newRequest": {
+      "title": "新的请求",
+      "icon_text": "我需要帮助",
+      "form": {
+        "title": "标题",
+        "type": "类型",
+        "address": "确认地址",
+        "body": "输入所需内容的详细信息",
+        "other": "请输入你的会员名",
+        "consent": "允许推送通知。您随时可以在您的设置中更改此通知。",
+        "submit": "下一个",
+        "cancel": "取消",
+        "search": "搜索​​​​",
+        "useMyLocation": "更新我的位置：",
+        "address_error_message": "请输入您的地址。",
+        "type_error_message": "您需要选择一种语言。",
+        "other_error_message": "您需要输入标题。",
+        "body_error_message": "请输入问题描述。"
+      }
+    },
+    "newRequestSuccess": {
+      "title": "您的信息已发送成功。",
+      "info": "请耐心等待，直到您从志愿者处得到报价。",
+      "remember": "记住",
+      "remember_info": "一旦志愿者主动提供帮助，您必须接受他们的帮助，以便他们看到您的联系信息。"
+    },
+    "requestReview": {
+      "submit": "提交请求",
+      "back": "后退",
+      "deliveryAddress": "交货地址"
+    },
+    "roleinfo": {
+      "title": "到达4帮助",
+      "sub_title": "我们如何能够帮助您？",
+      "manifesto": "我们认为，我们所做的一切都是有意义的，我们认为我们能够使人民能够在他们的共同感和社区感中得到帮助。 我们认为，团结是个人中最好的行动。",
+      "info": "请告诉我们您使用Reach4帮助的目的",
+      "info_pin": "我在这里是因为我需要帮助",
+      "c2a_pin": "立即获得帮助！",
+      "info_cav": "我在这里是因为我想帮助人",
+      "c2a_cav": "即刻销售！"
+    },
+    "routeSubtitles": {
+      "_login": "登入",
+      "_phone": "拨号",
+      "_requests": "请求",
+      "_personal-data": "个人资料",
+      "_timeline": "请求时间表",
+      "_personal-data_role-info": "角色信息",
+      "_phone_entry": "输入电话号码",
+      "_phone_verify": "确认电话号码",
+      "_requests_accepted": "接受的请求",
+      "_requests_archived": "已关闭的请求",
+      "_requests_find": "查找请求",
+      "_requests_finished": "已关闭的请求",
+      "_requests_new": "新的请求",
+      "_requests_ongoing": "进行中的竞赛",
+      "_requests_open": "打开请求:",
+      "_settings": "Settings"
+    },
+    "timeline": {
+      "CREATE_REQUEST": "{{actorName}} 创建了此请求。",
+      "CANCEL_REQUEST": "{{actorName}} 创建了此请求。",
+      "REMOVE_REQUEST": "{{actorName}} 创建了此请求。",
+      "COMPLETE_REQUEST": "已完成付款。",
+      "CREATE_OFFER": "{{actorName}} 表示愿意帮助处理此请求。",
+      "CAV_DECLINED": "{{actorName}} 创建了此请求。",
+      "ACCEPT_OFFER": "{{actorName}} 接受了 {{cavUserName}} 帮助。",
+      "REJECT_OFFER": "{{actorName}} 接受了 {{cavUserName}} 帮助。",
+      "RATE_PIN": "{{actorName}} 评分 {{actedUpon}}。",
+      "RATE_CAV": "{{actorName}} 评分 {{actedUpon}}。",
+      "open_status": "打开",
+      "cav": "志愿者",
+      "cav_wait": "正在等待视频",
+      "address": "配送地址",
+      "cancelRequest": "取消请求",
+      "finishRequest": "查找请求",
+      "ratingQuestion": "您将如何评价您的体验",
+      "submitRatingButton": "提交评价",
+      "finishRequestModalParta": "您确定您希望加入",
+      "finishRequestModalPartb": "從",
+      "thankYouModalTitle": "谢谢!",
+      "thankYouModalBodyParta": "您的评分",
+      "thankYouModalBodyPartb": "与"
+    },
+    "modules": {
+      "timeline": {
+        "components": {
+          "OffersList": {
+            "miles": "英里",
+            "kilometers": "公里",
+            "reject": "拒绝",
+            "accept": "接受",
+            "volunteer_select": "选择一名志愿者"
+          }
+        }
+      },
+      "navigation": {
+        "components": {
+          "Header": {
+            "reject_reminder": " 如果您拒绝此帮助，您的请求将回到可用请求列表中，但它将失去优先级别。",
+            "remember": "回归者",
+            "requests": "请求"
+          },
+          "TopPanel": {
+            "a11y_back_nav": "显示返回选项",
+            "a11y_display_photo": "显示头像",
+            "a11y_location_icon": "位置信息图标",
+            "a11y_phone_icon": "电话图标",
+            "a11y_sms_icon": "短信图标"
+          }
+        }
+      },
+      "personal-data": {
+        "components": {
+          "PersonalDataForm": {
+            "sub_title": "Please fill out the personal details below.",
+            "gps_button": "Use GPS to get my address",
+            "gps_unavailable_retry_button": "Geolocation unavailable. Retry.",
+            "learn_reactivate": "Learn how to reactivate geolocation",
+            "retry_geolocation": "Retry Geolocation",
+            "continue_without_geolocation": "Continue without Geolocation",
+            "go_back": "Go Back",
+            "geolocation_modal_title": "Geolocation is not authorized",
+            "geolocation_modal_text": "You can add your location manually, but it would help us get your position more accurately if you would use Geolocation. Please choose one of the options below :",
+            "geolocation_unavailable_title": "Unfortunately, we are not yet available in your location",
+            "geolocation_unavailable_text": "Sorry your location is not yet supported on our platform.  You will be notified by SMS or E-Mail, once our application becomes available at your location.",
+            "instructions_modal_title": "Instructions:",
+            "instructions_modal_text": "You can add your location manually, but it would help us get your position more accurately if you used Geolocation. If you wish to re-activate it, please follow the link :",
+            "policy_text": "We need this data to ensure the help reaches the correct destination. For any concerns, please read our ",
+            "policy_link": "Privacy & Security Policy.",
+            "accept_to_use_profile_pic": "I am okay with letting Reach4Help use my profile picture.",
+            "terms_conditions_text": "I understand and acknowledge the <0>{{linkText}}</0>",
+            "terms_conditions_link_text": "Terms & Conditions.",
+            "terms_conditions_error": "You need to accept the Terms & Conditions.",
+            "full_name_error_message": "Please enter your name.",
+            "display_name_error_message": "Please enter your display name.",
+            "address_error_message": "Please enter your address.",
+            "city_error_message": "Please enter your city.",
+            "country_error_message": "Please enter your country.",
+            "allow_send_notifications": "I would like Reach4Help to send me notifications and emails."
+          }
+        },
+        "containers": {
+          "PersonalDataFormContainer": {
+            "address_error": "抱歉，我们无法确定您的实际地址，请重试！",
+            "missing_data": "缺失数据"
+          }
+        }
+      },
+      "requests": {
+        "a11y_profile_pic": "个人资料图片",
+        "AcceptedRequestItem": {
+          "choose_volunteer": "从下列志愿者中选择以满足您的请求。"
+        },
+        "bottom_warning": "你的请求已被好几个志愿者阅读，但没有被接受。 我们建议您 &ldquo;关闭请求&rdquo; 并创建一个更简单描述的新请求。",
+        "cannot_help": "无法帮助",
+        "containers": {
+          "FoundRequestsContainer": {
+            "FoundRequestsContainer": {
+              "map_tab_label": "View Map of Requests",
+              "list_tab_label": "View List of Requests",
+              "no_requests": "Currently there are no requests in your area.  Check the map later.  Also feel free to place a Request for Need"
+            }
+          },
+          "AcceptedRequestContainer": {
+            "accepted": "已接受"
+          },
+          "FindRequestsContainer": {
+            "want_to_help": "我们乐于提供帮助。"
+          },
+          "FinishedRequestsContainer": {
+            "finished": "清理完成"
+          },
+          "NewRequestsContainer": {
+            "address_error": "无法找到订单。",
+            "deliveries": "物品盒"
+          },
+          "OngoingRequestContainer": {
+            "ongoing": "正在进行的"
+          },
+          "OpenRequestContainer": {
+            "open": "打开"
+          },
+          "no_reply": "没有人回复您的请求。"
+        }
+      }
+    },
+    "components": {
+      "loading": {
+        "a11y_message": "正在载入..."
+      },
+      "notification": {
+        "a_request": "解析",
+        "already_helped": " 正在获得帮助 ",
+        "cav_declined_help": " 拒绝帮助 ",
+        "cav_offer": "您已主动提出帮助 ",
+        "no_notifications": "无未读通知",
+        "notifications": "通知",
+        "offered_help": " 已主动提供帮助 ",
+        "pin_accepted": "您已主动提出帮助 ",
+        "pin_declined_help": "您已主动提出帮助 ",
+        "pin_rejected": "您已主动提出帮助 ",
+        "request_author": "请求作者",
+        "volunteer_accepted": " 接受了您的报价： ",
+        "your_task": "你的任务"
+      },
+      "web_client_map": {
+        "a11y_my_location": "我的位置",
+        "a11y_destination": "目标文件",
+        "api_error": "无法配对",
+        "distance_error": "距离服务错误：",
+        "geocode_error": "无法地理编码"
+      }
+    }
+  }
+}
